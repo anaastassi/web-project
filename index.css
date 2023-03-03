@@ -1,0 +1,226 @@
+header{
+    background:url("img/header_background.png");
+    background-size:cover;
+    height:100vh;
+    width:100%;
+    min-width:930px;
+    background-position: center;
+}
+@font-face {
+    font-family: 'Graphik';
+    src: url(fonts/GraphikRegular.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Graphik';
+    src: url(fonts/GraphikBold.otf) format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  h1{
+    font-family: 'Graphik';
+    color:white;
+    font-weight:700;
+    font-size:4vw;
+  }
+  h2{
+    font-family: 'Graphik';
+    color:black;
+    font-weight:400;
+    font-size:48px;
+    
+  }
+  h3{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #374754;
+  }
+  p{
+    font-family: 'Graphik';
+    color:white;
+    font-weight:400;
+    font-size:15px;
+  }
+  b{
+    font-family: 'Graphik';
+    color:white;
+    font-weight:400;
+    font-size:2vw;
+  }
+  a{
+    font-family: 'Graphik';
+    color:white;
+    font-weight:400;
+    font-size:20px;
+    text-decoration: none;
+  }
+#navigation{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width:47%;
+    margin-left: 10%;
+}
+.navigationItem{
+    margin: 0 5px;
+}
+#logo{
+    background:url("img/logo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-width: 186px;
+    margin-left:2%;
+}
+#menu{
+    padding-top:4vw;
+    display: flex;
+    flex-direction: row;
+}
+#facebookLogo{
+    background:url("img/facebook.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#twitterLogo{
+    background:url("img/twitter.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#inLogo{
+    background:url("img/in.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#socialMedia{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    width:20%;
+    margin-left:10%;
+}
+.socialMediaItem{
+    width:30px;
+    margin-left:20px;
+}
+#mainPageText{
+    margin-top:6%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width:100%;
+}
+.tryForFree{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 16px 0px;
+width: 236px;
+background: #2091F9;
+border-radius: 35px;
+align-self: center;
+margin-top:5%;
+}
+#featuresText{
+    margin-top:8%;
+    text-align: center;
+}
+#featuresText p, #organizeText p{
+font-family: 'Graphik';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 40px;
+color: #374754;
+}
+#featuresFlex{
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
+.featuresFlexItem{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:231px;
+  text-align: center;
+  margin:2%;
+}
+.featuresFlexItem p, #fingertipsText p{
+  font-weight:700;
+  color:black;
+  font-size:20px;
+}
+.featuresFlexItem b{
+  font-weight:400;
+  color:black;
+  font-size:18px;
+}
+#featuresImg1{
+  width:45.75px;
+  height:45.75px;
+  background:url("img/circle.png");
+  background-size:cover ;
+  align-self: center;
+}
+#featuresImg2{
+  width:45.75px;
+  height:45.75px;
+  background:url("img/pencil.png");
+  background-size:cover ;
+  align-self: center;
+}
+#featuresImg3{
+  width:45.75px;
+  height:45.75px;
+  background:url("img/brush.png");
+  background-size:cover ;
+  align-self: center;
+}
+#video{
+  background:url("img/video.png");
+  background-size:cover ;
+  height:40vw;
+  width:70%;
+  margin-left:15%;
+}
+#organize{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  position: relative;
+}
+#fingertips{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  position: relative;
+}
+#organizeText{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin:2%;
+  width:40%;
+  max-width:532px;
+}
+#laptop{
+  background:url("img/macbook.png");
+  background-size:cover;
+  width: 624.46px;
+  height: 349.17px;
+  margin-top:5%;
+}
+#fingertipsImg{
+  background:url("img/envelope.png");
+  background-size:cover;
+  width: 677px;
+  height: 514px;
+  margin-top:5%;
+}

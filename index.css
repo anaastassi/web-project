@@ -1,7 +1,6 @@
 header{
     background:url("img/header_background.png");
     background-size:cover;
-    height:100vh;
     width:100%;
     min-width:930px;
     background-position: center;
@@ -52,7 +51,7 @@ header{
     font-weight:400;
     font-size:2vw;
   }
-  a{
+  a, button{
     font-family: 'Graphik';
     color:white;
     font-weight:400;
@@ -116,21 +115,22 @@ header{
     width:100%;
 }
 .tryForFree{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 16px 0px;
-width: 236px;
-background: #2091F9;
-border-radius: 35px;
-align-self: center;
-margin-top:5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0px;
+  width: 236px;
+  background: #2091F9;
+  border-radius: 35px;
+  align-self: center;
+  margin-top:5%;
+  margin-bottom:5%;
 }
 #featuresText{
     margin-top:8%;
     text-align: center;
 }
-#featuresText p, #organizeText p{
+#featuresText p, #organizeText p, #partners p, #testimonials p{
 font-family: 'Graphik';
 font-style: normal;
 font-weight: 400;
@@ -194,12 +194,14 @@ color: #374754;
   display:flex;
   justify-content: center;
   position: relative;
+  margin-top:15%;
 }
 #fingertips{
   width:100%;
   display:flex;
   justify-content: center;
   position: relative;
+  margin-top:15%;
 }
 #organizeText{
   display:flex;
@@ -212,15 +214,116 @@ color: #374754;
 }
 #laptop{
   background:url("img/macbook.png");
-  background-size:cover;
-  width: 624.46px;
-  height: 349.17px;
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: auto;
   margin-top:5%;
 }
 #fingertipsImg{
   background:url("img/envelope.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 60%;
+  height: auto;
+}
+button{
+  padding: 19px 0;
+  width: 172px;
+  border: none;
+  background: #2091F9;
+  border-radius: 35px;
+}
+input{
+  padding: 19px 39px;
+  width: 273px;
+  background: #F4F4F4;
+  border: 1px solid #E8E8E8;
+  border-radius: 39px;
+}
+form{
+  margin-top:6%;
+}
+#partners{
+  margin-top:20%;
+  text-align:center;
+}
+#partnersFlex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 330px;
+  margin-top:10%;
+}
+#partnersFlex1{
+  display: flex;
+  width:100%;
+  height: 50%;
+  justify-content: center;
+}
+#partnersFlex2{
+  display: flex;
+  width:100%;
+
+  height: 50%;
+  justify-content: center;
+}
+.google{
+  background: url("img/google.png");
+  width:273px;
+  height:165px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.amazon{
+  background: url("img/amazon.png");
+  width: 273px;
+  height: 160.14px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.microsoft{
+  background: url("img/microsoft.png");
+  width: 301.54px;
+  height: 165px;  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.uber{
+  background: url("img/uber.png");
+  width: 220px;
+  height: 165px;
+  background-repeat: no-repeat;
   background-size:cover;
-  width: 677px;
-  height: 514px;
-  margin-top:5%;
+}
+.dropbox{
+  background: url("img/dropbox.png");
+  width: 309px;
+  height: 164px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#testimonials{
+  text-align: center;
+  margin-top: 20%;
+}
+#ibm{
+  background: url("img/ibm.png");
+  width:149.85px;
+  height:59.94px;
+  margin:auto;
+}
+#client{
+  background: url("img/client.png");
+  margin:auto;
+  width: 186px;
+  height: 55px;
+  margin-top:3%;
+}
+#testimonials .tryForFree{
+  margin:auto;
+  margin-top:3%;
 }
